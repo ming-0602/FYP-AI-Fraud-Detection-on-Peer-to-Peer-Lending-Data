@@ -1,0 +1,48 @@
+# JetBrains IDEs
+frontend/.idea/
+backend/.idea/
+contracts/.idea/
+
+# Frontend (Next.js)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Backend (Flask)
+backend/__pycache__/
+backend/*.pyc
+backend/instance/
+backend/.venv/
+backend/.env
+
+# Smart Contracts (Truffle)
+contracts/build/
+contracts/node_modules/
+contracts/.env
+contracts/.openzeppelin/
+
+# OS-Specific Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python Bytecode
+*.py[cod]
+
+# Virtual Environment
+backend/venv/
+backend/ENV/
+
+# Coverage Reports
+coverage/
+*.cover
+*.lcov
+
+# Ignore all hidden files/folders across all subdirectories
+.*
+!.gitignore
